@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+<title>AHS Hack Club</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Fredoka+One&display=swap" rel="stylesheet">
+<link rel="icon" 
+      type="image/png" 
+      href="assets/favicon1.png">
+<body id="myPage">
+
+<style>
+html {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+html {
+   scroll-behavior: smooth;
+   font-family: 'Fredoka One', cursive;
+}
+.contactbutton {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #4B4747;
+  text-align: center;
+  cursor: pointer;
+  width: 50%;
+  font-size: 18px;
+  border-radius: 20px;
+}
+.contactbutton:hover, a:hover {
+  opacity: 0.7;
+}
+body, html {
+  height: 100%;
+}
+.parallax {
+  /* The image used */
+  background-image: url('img_parallax.jpg');
+  /* Full height */
+  height: 100%; 
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+	
+	
+	
+@-webkit-keyframes slideInUp {
+  from {
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+    visibility: visible;
+  }
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes slideInUp {
+  from {
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+    visibility: visible;
+  }
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+.slideInUp {
+  -webkit-animation-name: slideInUp;
+  animation-name: slideInUp;
+}	
+	
+	
+	
+</style>
+
+<!--Image Credits Start-->
+<!--power-technology.com-->
+<!--wallpaperbro.com-->
+<!--sxsw.com-->
+<!--wework.com-->
+<!--Image Credits End-->
+
+<!-- Navbar -->
+<div class = "large">
+<div class="w3-top">
+ <div class="w3-bar w3-theme-d2 w3-left-align">
+   <a href="#" class="w3-bar-item w3-button w3-red w3-hover-white w3-hover-opacity-off" style="background-color: #fc4d41;padding:1%;font-family: 'Fredoka One', cursive;"><i class="fa fa-home w3-margin-right"></i>AHS Hack Club</a>
+  <a href="#team" class="w3-bar-item w3-button w3-hide-small w3-hover-white w3-hover-opacity-off" style="padding:1%;font-family: 'Fredoka One', cursive;">Team</a>
+  <a href="#work" class="w3-bar-item w3-button w3-hide-small w3-hover-white w3-hover-opacity-off" style="padding:1%;font-family: 'Fredoka One', cursive;">About</a>
+  <a href="#pricing" class="w3-bar-item w3-button w3-hide-small w3-hover-white w3-hover-opacity-off" style="padding:1%;font-family: 'Fredoka One', cursive;">Register</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-hover-white w3-hover-opacity-off" style="padding:1%;font-family: 'Fredoka One', cursive;">Contact</a>
+  </div>
+</div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
+    <a href="#team" class="w3-bar-item w3-button" style="font-family: 'Fredoka One', cursive;">Team</a>
+    <a href="#work" class="w3-bar-item w3-button" style="font-family: 'Fredoka One', cursive;">About</a>
+    <a href="#pricing" class="w3-bar-item w3-button" style="font-family: 'Fredoka One', cursive;">Register</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="font-family: 'Fredoka One', cursive;">Contact</a>
+  </div>
+</div>
+
+<!-- Image Header -->
+<div class=" w3-display-container w3-animate-opacity parallax">
+<div class="parallax">
+  <img class="parallax" src="assets/bkg2.png" alt="HackClub" style="width:100%;">
+  </div>
+  <div class="w3-display-left w3-text-white" style="padding:48px">
+    <span class="w3-jumbo w3-hide-small .slideInUp" style="font-family: 'Fredoka One', cursive;">Alpharetta Hack Club</span><br>
+    <span class="w3-xxlarge w3-hide-large w3-hide-medium" style="font-family: 'Fredoka One', cursive;">Welcome to Alpharetta Hack Club</span><br>
+	  <span class="w3-xlarge" style="font-family: 'Fredoka One', cursive;">A place for <u>Makers</u>.</span><br>
+    <p><a href="#work" class="w3-button w3-red w3-padding-large w3-large w3-margin-top w3-hover-white w3-hover-opacity-off" style="font-family: 'Fredoka One', cursive; border-radius: 20px; border: 2px solid white; opacity: 100%;">Learn more about our club</a></p>
+  </div> 
+	
+  <div class="w3-display-right w3-text-white w3-half w3-left w3-hide-small w3-hide-medium" style="padding:48px">
+  	<img src = "assets/hacking.png" style="width:70%;">  
+  </div> 
+</header>
+</div>
+	</div>
+
+<!-- Team Container -->
+<div id = "team"></div>
+<div class="w3-container w3-padding-64 w3-center" style="font-family: 'Fredoka One', cursive;">
+<h2 style="font-family: 'Fredoka One', cursive;">OUR TEAM</h2>
+<p>Meet the leadership team</p>
+
+<div class="w3-row"><br>
+
+<div class="w3-third">
+  <img src="assets/Rishi2.jpg" alt="Boss" style="width:45%" class="w3-circle">
+  <h3 style="font-family: 'Fredoka One', cursive;">Magiawala, <b>Rishi</b></h3>
+  <p>President</p>
+	  <a href="mailto:rishimagiawala@alpharetta.hackclub.com" target="_top"><p><button class="contactbutton">Contact</button></p></a>
+</div>
+
+<div class="w3-third">
+  <img src="assets/Sanath2.jpg" alt="Boss" style="width:45%; height: 45%;" class="w3-circle">
+  <h3 style="font-family: 'Fredoka One', cursive;">Kamath, <b>Sanath</b></h3>
+  <p>Vice President</p>
+	  <a href="mailto:sanathkamath@alpharetta.hackclub.com" target="_top"><p><button class="contactbutton">Contact</button></p></a>
+</div>
+
+<div class="w3-third">
+  <img src="assets/Srihith2.jpg" alt="Boss" style="width:45%" class="w3-circle">
+  <h3 style="font-family: 'Fredoka One', cursive;">Pallamreddy, <b>Srihith</b></h3>
+  <p>Treasurer</p>
+	  <a href="mailto:srihithpallamreddy@alpharetta.hackclub.com" target="_top"><p><button class="contactbutton">Contact</button></p></a>
+</div>
+</div>
+	
+<div class="w3-row"><br>	
+<div class="w3-third">
+  <img src="assets/Harish2.jpg" alt="Boss" style="width:45%" class="w3-circle">
+  <h3 style="font-family: 'Fredoka One', cursive;">Kanthi, <b>Harish</b></h3>
+  <p>Secretary</p>
+	  <a href="mailto:harishkanthi@alpharetta.hackclub.com" target="_top"><p><button class="contactbutton">Contact</button></p></a>
+</div>
+
+<div class="w3-third">
+  <img src="assets/Manav2.jpg" alt="Boss" style="width:45%" class="w3-circle">
+  <h3 style="font-family: 'Fredoka One', cursive;">Patel, <b>Manav</b></h3>
+  <p>Meeting Manager</p>
+	  <a href="mailto:manavpatel@alpharetta.hackclub.com" target="_top"><p><button class="contactbutton">Contact</button></p></a>
+</div>
+
+<div class="w3-third">
+  <img src="assets/advik2.jpg" alt="Boss" style="width:45%" class="w3-circle">
+  <h3 style="font-family: 'Fredoka One', cursive;">Venkat, <b>Advik</b></h3>
+  <p>Outreach Manager</p>
+	  <a href="mailto:advikvenkat@alpharetta.hackclub.com" target="_top"><p><button class="contactbutton">Contact</button></p></a>
+</div>
+</div>
+</div>
+</div>
+
+<!-- Work Row -->
+<div class="w3-row-padding w3-padding-64 w3-theme-l1" id="work">
+
+<div class="w3-quarter" id="about" style="font-family: 'Fredoka One', cursive;">
+<h2 style="font-family: 'Fredoka One', cursive;">About Us</h2>
+<p>Hack Club is a global network of programming clubs where members learn to code through tinkering and building projects. Hack Clubs meet weekly at their high schools, typically for 1.5hrs after school. There are no teachers or lecturesâ€”members work at their own pace making websites, apps, & games, and presenting them to the group.</p>
+</div>
+
+<div class="w3-quarter" style="border-radius: 20px;">
+<div class="w3-card w3-white" style="font-family: 'Fredoka One', cursive; border-radius: 20px;">
+  <img src="assets/Hackathon.jpg" alt="Hacakthons" style="width:100%;border-radius: 20px;">
+  <div class="w3-container">
+  <h3 style="font-family: 'Fredoka One', cursive;">Hackathons/Local Events</h3>
+  <p>Collaborate on coding</p>
+  <p>Show off your skills</p>
+  <p>Meet up with friends</p>
+  </div>
+  </div>
+</div>
+
+<div class="w3-quarter" style="font-family: 'Fredoka One', cursive; border-radius: 20px;">
+<div class="w3-card w3-white" style="border-radius: 20px;">
+  <img src="assets/Code.jpg" alt="Code" style="width:100%;border-radius: 20px;">
+  <div class="w3-container">
+  <h3 style="font-family: 'Fredoka One', cursive;">Learn to Code</h3>
+  <p>Learn coding languages</p>
+  <p>Learn to make websites in HTML</p>
+  <p>Tinker with projects</p>
+  </div>
+  </div>
+</div>
+
+<div class="w3-quarter" style="border-radius: 20px;">
+<div class="w3-card w3-white" style="font-family: 'Fredoka One', cursive; border-radius: 20px;">
+  <img src="assets/Present.jpg" alt="Present" style="width:100%;border-radius: 20px;">
+  <div class="w3-container">
+  <h3 style="font-family: 'Fredoka One', cursive;">Present your Ideas</h3>
+  <p>Get ideas</p>
+  <p>Show your projects</p>
+  <p>Expand your ideas</p>
+  </div>
+  </div>
+</div>
+
+</div>
+
+<!-- Pricing Row -->
+<div class="w3-row-padding w3-center w3-padding-64" id="pricing">
+    <h2 style="font-family: 'Fredoka One', cursive;">REGISTER</h2>
+    <p style="font-family: 'Fredoka One', cursive; border-radius: 20px;">Click the picture below to fill out the registration form.</p><br>
+	<a href="https://docs.google.com/forms/d/e/1FAIpQLSfsxrX0wja3P4ax8vUaGHpqeLi8jgAczTJj5gy0e4aYeOK01w/viewform?vc=0&c=0&w=1" target="_blank"><img src="assets/captureGoogleForm.PNG" class="w3-image w3-greyscale-min" style="width: 50%;border-radius: 20px;"></a>
+</div>
+
+<!-- Contact Container -->
+<div class="w3-container w3-padding-64 w3-theme-l5" id="contact" style="text-align: left; padding-left:20%;">
+  <div class="w3-row" style="text-decoration: none;">
+    <div class="w3-col m5" style="border-radius: 20px;">
+    <div class="w3-padding-16" style="font-family: 'Fredoka One', cursive;"><span class="w3-xlarge w3-border-red w3-bottombar"><b>Contact Us</b></span></div>
+      <a href="mailto:someone@example.com?Subject=Hello%20again" target="_top" style="text-decoration: none;"><p style="font-family: 'Fredoka One', cursive;"><i class="fa fa-envelope-o w3-text-red w3-xlarge"></i>  ahs@alpharetta.hackclub.com</p></a>
+      <a href="" target="_blank" style="text-decoration: none;"><p style="font-family: 'Fredoka One', cursive; text-decoration: none;"><i class="fa fa-instagram w3-text-red w3-xlarge"></i>  @ahs_hackclub</p></a>
+      <a href="https://www.google.com/maps/place/Alpharetta+High+School/@34.0757569,-84.2573135,17z/data=!3m1!4b1!4m5!3m4!1s0x88f59e3ab183ba99:0x63f49c7cb8536d0a!8m2!3d34.0757525!4d-84.2551248" target="_blank" style="text-decoration: none;"><p style="font-family: 'Fredoka One', cursive;"><i class="fa fa-map-marker w3-text-red w3-xlarge"></i>  Alpharetta High School</p></a>
+      <p style="font-family: 'Fredoka One', cursive;">Swing by a meeting for more information.</p>
+	  </div>
+    <div class="w3-col m7" style="text-align: center; border-radius: 20px;">
+      <img src="assets/AlpharettaHS1.jpg" class="w3-image w3-greyscale-min w3-left" style="width: 50%; border-radius: 20px;">
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-32 w3-theme-d1 w3-center">
+	<h4 style="font-family: 'Fredoka One', cursive;">Share this Page</h4>
+  <br>
+	 <!-- Facebook -->
+    <a href="http://www.facebook.com/sharer.php?u=https://alpharetta.hackclub.com/" target="_blank">
+        <img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" />
+    </a>
+	
+ <!-- Twitter -->
+    <a href="https://twitter.com/share?url=https://alpharetta.hackclub.com/&amp;text=AHS%20Hack%20Club&amp;hashtags=AHS Hack Club" target="_blank">
+        <img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" />
+    </a>
+	
+ <!-- Email -->
+    <a href="mailto:?Subject=AHS Hack Club&amp;Body=Check%20out%20this%20website!%20 https://alpharetta.hackclub.com/">
+        <img src="https://simplesharebuttons.com/images/somacro/email.png" alt="Email" />
+    </a>
+	
+ <!-- LinkedIn -->
+    <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https://alpharetta.hackclub.com/" target="_blank">
+        <img src="https://simplesharebuttons.com/images/somacro/linkedin.png" alt="LinkedIn" />
+    </a>
+	
+ <!-- Reddit -->
+    <a href="http://reddit.com/submit?url=https://alpharetta.hackclub.com/&amp;title=AHS Hack Club" target="_blank">
+        <img src="https://simplesharebuttons.com/images/somacro/reddit.png" alt="Reddit" />
+    </a>
+	<!-- AddToAny BEGIN -->
+	<!--<div class="w3-center">
+<div class="a2a_kit a2a_kit_size_32 w3-center">
+<a class="a2a_button_facebook w3-xlarge"></a>
+<a class="a2a_button_twitter w3-xlarge"></a>
+<a class="a2a_button_email w3-xlarge"></a>
+<a class="a2a_button_pinterest w3-xlarge"></a>
+<a class="a2a_button_linkedin w3-xlarge"></a>
+<a class="a2a_button_reddit w3-xlarge"></a>
+</div>-->
+	</div>
+<script async src="https://static.addtoany.com/menu/page.js"></script>
+
+</footer>
+
+<script>
+// Script for side navigation
+function w3_open() {
+  var x = document.getElementById("mySidebar");
+  x.style.width = "300px";
+  x.style.paddingTop = "10%";
+  x.style.display = "block";
+}
+// Close side navigation
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+// Used to toggle the menu on smaller screens when clicking on the menu button
+function openNav() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>
